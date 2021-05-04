@@ -1,0 +1,116 @@
+{
+    "name": "demo",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "06dd5371-31e6-4a08-999a-cf5a0930e76e": {
+            "environment": "d119ff82-fbad-4f5a-a8a5-5ae703160ac7",
+            "file_path": "sentiment_analysis.ipynb",
+            "incoming_connections": [
+                "f674d1a0-58d5-4ebe-9c73-fc94e4497557",
+                "a53600f2-27da-4453-9f58-6f1944c53e37"
+            ],
+            "kernel": {
+                "display_name": "Python 3_new",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    972.5,
+                    211.5
+                ]
+            },
+            "parameters": {},
+            "title": "sentiment analysis results comparison",
+            "uuid": "06dd5371-31e6-4a08-999a-cf5a0930e76e"
+        },
+        "a53600f2-27da-4453-9f58-6f1944c53e37": {
+            "environment": "d119ff82-fbad-4f5a-a8a5-5ae703160ac7",
+            "file_path": "wordnet_stem.ipynb",
+            "incoming_connections": [
+                "c5cf332b-d12d-497e-85a5-efd969b45bf4"
+            ],
+            "kernel": {
+                "display_name": "Python 3_new",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    679.5,
+                    314.5
+                ]
+            },
+            "parameters": {},
+            "title": "Stemming - wordnet method",
+            "uuid": "a53600f2-27da-4453-9f58-6f1944c53e37"
+        },
+        "c5cf332b-d12d-497e-85a5-efd969b45bf4": {
+            "environment": "d119ff82-fbad-4f5a-a8a5-5ae703160ac7",
+            "file_path": "remove_stop_words.ipynb",
+            "incoming_connections": [
+                "dc325034-b603-4f15-bc61-96da25cc8806"
+            ],
+            "kernel": {
+                "display_name": "Python 3_new",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    376.5,
+                    239.5
+                ]
+            },
+            "parameters": {},
+            "title": "Remove Stop Words",
+            "uuid": "c5cf332b-d12d-497e-85a5-efd969b45bf4"
+        },
+        "dc325034-b603-4f15-bc61-96da25cc8806": {
+            "environment": "2267b813-17f1-47f0-8614-c05028a74710",
+            "file_path": "load_text.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    105.38680238680217,
+                    239.22797472797453
+                ]
+            },
+            "parameters": {},
+            "title": "Read Text file",
+            "uuid": "dc325034-b603-4f15-bc61-96da25cc8806"
+        },
+        "f674d1a0-58d5-4ebe-9c73-fc94e4497557": {
+            "environment": "d119ff82-fbad-4f5a-a8a5-5ae703160ac7",
+            "file_path": "snowball_stem.ipynb",
+            "incoming_connections": [
+                "c5cf332b-d12d-497e-85a5-efd969b45bf4"
+            ],
+            "kernel": {
+                "display_name": "Python 3_new",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    675.5,
+                    129.5
+                ]
+            },
+            "parameters": {},
+            "title": "Stemming - Snowball method",
+            "uuid": "f674d1a0-58d5-4ebe-9c73-fc94e4497557"
+        }
+    },
+    "uuid": "a89b6a72-b319-4600-af15-55d4d2ebcab1",
+    "version": "1.0.0"
+}
