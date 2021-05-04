@@ -20,8 +20,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    972.5,
-                    211.5
+                    971.5,
+                    235.5
                 ]
             },
             "parameters": {},
@@ -71,11 +71,11 @@
             "uuid": "c5cf332b-d12d-497e-85a5-efd969b45bf4"
         },
         "dc325034-b603-4f15-bc61-96da25cc8806": {
-            "environment": "2267b813-17f1-47f0-8614-c05028a74710",
+            "environment": "d119ff82-fbad-4f5a-a8a5-5ae703160ac7",
             "file_path": "load_text.ipynb",
             "incoming_connections": [],
             "kernel": {
-                "display_name": "Python 3",
+                "display_name": "Python 3_new",
                 "name": "python"
             },
             "meta_data": {
@@ -102,8 +102,8 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    675.5,
-                    129.5
+                    681.5,
+                    136.5
                 ]
             },
             "parameters": {},
